@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/Icon.jpg" type="image/x-icon">
+    <title>Mi Portafolio | Brigite Claros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=MedievalSharp&family=UnifrakturMaguntia&family=IM+Fell+English&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Mi<span>Portafolio</span></a>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>༄ ☾ ⋅ Hola, Soy Brigitte Claros ⋅ ☽ ༄</h1>
+                <p>Desarrollador Junior | Diseñador en Paginas Web | Amante de Diseñar UI / UX </p>
+                <div class="hero-btns">
+                    <a href="#portafolio" class="btn">Ver Mi Trabajo</a>
+                    <a href="#contacto" class="btn btn-outline">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="section about" id="sobre-mi">
+        <div class="container">
+            <div class="section-title">
+                <h2>˚₊‧꒰ა Sobre Mi ໒꒱ ‧₊˚</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://via.placeholder.com/500x600" alt="Foto de perfil">
+                </div>
+                <div class="about-text">
+                    <h3>¡Hola! Soy Brigitte Claros</h3>
+                    <p>Soy un desarrollador web apasionado con más de 5 años de experiencia creando soluciones digitales innovadoras. Me especializo en desarrollo frontend y backend, diseño de interfaces de usuario y optimización de sitios web.</p>
+                    <p>Mi objetivo es combinar creatividad y funcionalidad para ofrecer experiencias digitales excepcionales que resuelvan problemas reales y generen valor para los usuarios y las empresas.</p>
+                    
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Desarrollo Web</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Diseño UI/UX</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn" style="margin-top: 20px;">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section services" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>🐈‍⬛ – Mis Servicios (◝◡◜)</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creación de sitios web responsivos, aplicaciones web y soluciones digitales personalizadas utilizando las últimas tecnologías.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Diseño UI/UX</h3>
+                    <p>Diseño de interfaces intuitivas y atractivas centradas en la experiencia del usuario para maximizar la conversión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section class="section portfolio" id="portafolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>꧁𓊈𒆜Mis Trabajos𒆜𓊉꧂</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Diseño</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-img">
+                        <img src="Imagenes/Veterinaria.png" alt="Proyecto 1">
+                        <div class="portfolio-overlay">
+                            <a href="https://github.com/bricr0/Veterinaria" target="_blank" class="btn">Ver Detalles</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Happy Feet</h3>
+                        <p>Pagina Web</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="Imagenes/AcmeBank.png" alt="Proyecto 2">
+                        <div class="portfolio-overlay">
+                            <a href="https://github.com/Juan-Tapias/ProyectoAcmeBack_JavaScript_JuanMartinez_BrigitteClaros" target="_blank" class="btn">Ver Detalles</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Acme Bank</h3>
+                        <p>Pagina Web </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctame</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Ubicación</h3>
+                            <p>Santander, Colombia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Teléfono</h3>
+                            <p>+51 310 5697 135</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>ratwithinternetaccess02@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Tu Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Mi Portafolio</h3>
+                    <p>Desarrollador web y diseñador UI/UX apasionado por crear soluciones digitales innovadoras que generen impacto.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/m1dnightl0tus" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/brigitte-claros-viola-a88032377/?trk=opento_sprofile_goalscard" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/bricr0" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
