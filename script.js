@@ -163,3 +163,19 @@ function typeWriter(element, text, speed = 100) {
      const originalText = heroTitle.textContent;
      typeWriter(heroTitle, originalText, 100);
  }
+
+ // Animar barras de habilidades al hacer scroll
+function animateSkillBars() {
+    const skillBars = document.querySelectorAll('.skill-per');
+    
+    skillBars.forEach(bar => {
+        const per = bar.getAttribute('data-per');
+        if (isElementInViewport(bar)) {
+            bar.style.width = per;
+        }
+    });
+}
+
+// Ejecutar al cargar y hacer scroll
+window.addEventListener('load', animateSkillBars);
+window.addEventListener('scroll', animateSkillBars);

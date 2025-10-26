@@ -274,6 +274,138 @@ header {
     transition: width 2s ease;
 }
 
+/* Sección Habilidades */
+.skills2 {
+    background: url(Imagenes/Habilidades.jpg) center/cover no-repeat fixed;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.skills-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+}
+
+/* Habilidades Técnicas con barras */
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-item span {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.skill-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-per {
+    height: 100%;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    width: 0;
+    transition: width 1.5s ease;
+}
+
+/* Habilidades Blandas con iconos */
+.soft-skills {
+    display: grid;
+    gap: 15px;
+}
+
+.soft-skill-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.soft-skill-item:hover {
+    transform: translateX(5px);
+}
+
+.soft-skill-item i {
+    width: 30px;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+/* Diseño con tarjetas */
+.skills-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.skill-card {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.skill-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.skill-card-header i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-right: 15px;
+}
+
+.skill-card-header h3 {
+    margin: 0;
+    color: rgb(146, 25, 25);
+}
+
+.skill-tags {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tags li {
+    background: var(--light-color);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.skill-tags li:hover {
+    background: var(--secondary-color);
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .skills-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Servicios */
 .services {
     background: url(Imagenes/Service.jpg) center/cover no-repeat;
@@ -337,6 +469,7 @@ header {
 }
 
 .filter-btn {
+    color: white;
     padding: 8px 20px;
     background: transparent;
     border: none;
@@ -409,7 +542,6 @@ header {
 
 .portfolio-info {
     padding: 20px;
-    background: white;
 }
 
 .portfolio-info h3 {
