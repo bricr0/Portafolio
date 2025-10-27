@@ -1,6 +1,4 @@
 # 🚀 Portafolio Personal - Bri
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_DEPLOY_ID/deploys)](https://app.netlify.com/sites/briportafolio/deploys)
 [![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://briportafolio.netlify.app)
 
 Portafolio profesional desarrollado con HTML5, CSS3 y JavaScript vanilla. Diseño moderno, responsive y optimizado para mostrar mis proyectos y habilidades como desarrollador.
@@ -34,7 +32,6 @@ Portafolio profesional desarrollado con HTML5, CSS3 y JavaScript vanilla. Diseñ
 3. **🛠 Habilidades** - Barras de progreso y competencias
 4. **💼 Portafolio** - Galería de proyectos con filtros
 5. **📞 Contacto** - Formulario funcional y información de contacto
-6. **🦶 Footer** - Enlaces sociales y copyright
 
 
 ## 📄 Licencia
